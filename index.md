@@ -13,19 +13,19 @@ Jekyllをまじめに運用してないからアレ
 
 ### [login_eccs.rb](https://gist.github.com/MasWag/4315659)
 * eccsのLanのログインを自動で行なうtool 
-    * rubyのmechanizeがあれば多分動く
-    * 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
+    - rubyのmechanizeがあれば多分動く
+    - 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
 
 git系
 ----------------------------------------
 
 ### [.gitconfig](https://gist.github.com/MasWag/4451236)
 * .gitconfigの雛形
-    * ssl認証の無視とかあるよ
+    - ssl認証の無視とかあるよ
 
 ### [git-submodule-rm](https://gist.github.com/MasWag/4255594)
 * gitのsubmoduleを消すスクリプト
-    * gitのsubmoduleを消すのはちょっとめんどくさいからね
+    - gitのsubmoduleを消すのはちょっとめんどくさいからね
 
 ほどほど便利な子
 ----------------------------------------
@@ -39,16 +39,16 @@ git系
 
 ### [cancel.sh](https://github.com/MasWag/cancel.sh)
 * 東大前期教養の休講情報のページと検索文字列を比較して,matchしたらgoogle calendarに追加するscript
-    * passwordべたがきよくない
+    - passwordべたがきよくない
 
 ### [calcgen](https://github.com/MasWag/calcgen)
 * 中1位の計算問題を自動で生成する
-    * たしか出力はLaTeX
+    - たしか出力はLaTeX
 
 ### [Voting-Classes](https://github.com/MasWag/Voting-Classes)
 * 履修状況とかを集めたいときのフォーム
-    * SQLとか使ってない(eccsで使えなかったから)から適切なphpが動けば多分すぐ動く
-    * サーバー内部にcsvで保存している
+    - SQLとか使ってない(eccsで使えなかったから)から適切なphpが動けば多分すぐ動く
+    - サーバー内部にcsvで保存している
         * .htaccessとかちゃんとしないとまずい
 * なんかバグがあった気がするけどもう覚えてない
 
@@ -60,4 +60,4 @@ git系
 
 ### [jpegModifier](https://github.com/MasWag/jpegModifier)
 * SOIとかEOIとかが破損したけどデータは残ってそうなjpegファイルを復活させる
-    * 普通使う機会がない
+    - 普通使う機会がない
