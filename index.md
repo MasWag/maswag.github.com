@@ -1,10 +1,22 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: つくったものりすと
+tagline: <!--Supporting tagline -->
 ---
 {% include JB/setup %}
+Jekyllをまじめに運用してないからアレ
 
+適当に作ったスクリプトとかをのせていくページ
+
+自動login系
+====================
+
+[login_eccs.rb](https://gist.github.com/MasWag/4315659)
+----------------------------------------
+* eccsのLanのログインを自動で行なうtool 
+    * rubyのmechanizeがあれば多分動く
+    * 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
+<!--
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
@@ -43,4 +55,4 @@ Here's a sample "posts list".
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
-
+-->
