@@ -17,8 +17,16 @@ Jekyllをまじめに運用してないからアレ
     * rubyのmechanizeがあれば多分動く
     * 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
 
-[git-submodule-rm](https://gist.github.com/MasWag/4255594)
+git系
 ========================================
+
+[.gitconfig](https://gist.github.com/MasWag/4451236)
+----------------------------------------
+* .gitconfigの雛形
+    * ssl認証の無視とかあるよ
+
+[git-submodule-rm](https://gist.github.com/MasWag/4255594)
+----------------------------------------
 * gitのsubmoduleを消すスクリプト
     * gitのsubmoduleを消すのはちょっとめんどくさいからね
 <!--
