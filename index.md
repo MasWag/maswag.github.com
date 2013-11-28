@@ -1,7 +1,7 @@
 ---
 layout: page
 title: つくったものりすと
-tagline: <!--Supporting tagline -->
+<!-- tagline: Supporting tagline -->
 ---
 {% include JB/setup %}
 Jekyllをまじめに運用してないからアレ
@@ -29,6 +29,49 @@ git系
 ----------------------------------------
 * gitのsubmoduleを消すスクリプト
     * gitのsubmoduleを消すのはちょっとめんどくさいからね
+
+ほどほど便利な子
+========================================
+
+[send_sms.rb](https://gist.github.com/MasWag/4664969)
+----------------------------------------
+* AndroidのSL4AでRubyを使って定型smsを送るスクリプト
+
+[mkembedpdf](https://gist.github.com/MasWag/5063181)
+----------------------------------------
+* フォントが埋め込まれてなくて残念なpdfからフォントが埋め込まれたpdfを生成するscript
+* TeXが生成したpdf以外で動くかはしらない
+
+[cancel.sh](https://github.com/MasWag/cancel.sh)
+----------------------------------------
+* 東大前期教養の休講情報のページと検索文字列を比較して,matchしたらgoogle calendarに追加するscript
+    * passwordべたがきよくない
+
+[calcgen](https://github.com/MasWag/calcgen)
+----------------------------------------
+* 中1位の計算問題を自動で生成する
+    * たしか出力はLaTeX
+
+[Voting-Classes](https://github.com/MasWag/Voting-Classes)
+----------------------------------------
+* 履修状況とかを集めたいときのフォーム
+    * SQLとか使ってない(eccsで使えなかったから)から適切なphpが動けば多分すぐ動く
+    * サーバー内部にcsvで保存している
+        * .htaccessとかちゃんとしないとまずい
+* なんかバグがあった気がするけどもう覚えてない
+
+おもちゃ
+========================================
+
+[rand.tcl](https://gist.github.com/MasWag/5434425)
+----------------------------------------
+* tcl/tkで乱数を生成させてみただけ
+
+[jpegModifier](https://github.com/MasWag/jpegModifier)
+----------------------------------------
+* SOIとかEOIとかが破損したけどデータは残ってそうなjpegファイルを復活させる
+    * 普通使う機会がない
+
 <!--
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
