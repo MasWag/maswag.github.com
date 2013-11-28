@@ -16,6 +16,11 @@ Jekyllをまじめに運用してないからアレ
 * eccsのLanのログインを自動で行なうtool 
     * rubyのmechanizeがあれば多分動く
     * 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
+
+[git-submodule-rm](https://gist.github.com/MasWag/4255594)
+========================================
+* gitのsubmoduleを消すスクリプト
+    * gitのsubmoduleを消すのはちょっとめんどくさいからね
 <!--
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
