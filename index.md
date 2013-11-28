@@ -4,7 +4,7 @@ title: つくったものりすと
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-
+<!--
 Jekyllをまじめに運用してないからアレ
 
 適当に作ったスクリプトとかをのせていくページ
@@ -73,6 +73,7 @@ git系
 * SOIとかEOIとかが破損したけどデータは残ってそうなjpegファイルを復活させる
     * 普通使う機会がない
 
+-->
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
