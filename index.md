@@ -46,9 +46,10 @@ git系
 
 ### [calcgen](https://github.com/MasWag/calcgen)
 * 中1位の計算問題を自動で生成する
- - たしか出力はLaTeX
+  - たしか出力はLaTeX
 
 ### [Voting-Classes](https://github.com/MasWag/Voting-Classes)
+
 * 履修状況とかを集めたいときのフォーム
  - SQLとか使ってない(eccsで使えなかったから)から適切なphpが動けば多分すぐ動く
  - サーバー内部にcsvで保存している
