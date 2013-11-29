@@ -13,8 +13,8 @@ Jekyllをまじめに運用してないからアレ
 
 ### [login_eccs.rb](https://gist.github.com/MasWag/4315659)
 * eccsのLanのログインを自動で行なうtool 
-    * rubyのmechanizeがあれば多分動く
-    * 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
+    - rubyのmechanizeがあれば多分動く
+    - 文字列操作とかやってないから1.8でも1.9でも動いて幸せ
 
 ### [login_utroam.rb](https://gist.github.com/MasWag/7699888)
 * utroam版
@@ -24,7 +24,7 @@ git系
 
 ### [.gitconfig](https://gist.github.com/MasWag/4451236)
 * .gitconfigの雛形
-    * ssl認証の無視とかあるよ
+    - ssl認証の無視とかあるよ
 
 ### [git-submodule-rm](https://gist.github.com/MasWag/4255594)
 * gitのsubmoduleを消すスクリプト
