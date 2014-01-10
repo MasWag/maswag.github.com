@@ -1,7 +1,7 @@
 ---
 layout: page
 title: つくったものりすと
-tagline: Supporting tagline
+#tagline: Supporting tagline
 ---
 {% include JB/setup %}
 Jekyllをまじめに運用してないからアレ
