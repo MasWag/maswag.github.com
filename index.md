@@ -37,7 +37,7 @@ AndroidのSL4AでRubyを使って定型smsを送るスクリプト.
 TeXが生成したpdf以外で動くかはしらない
 
 ### [cancel.sh](https://github.com/MasWag/cancel.sh)
-東大前期教養の休講情報のページと検索文字列を比較して,matchしたらgoogle calendarに追加するscript.passwordべたがきよくない.
+東大前期教養の休講情報のページと検索文字列を比較して,matchしたらgoogle calendarに追加するscript.pit使ってuser情報を隔離している.
 
 ### [calcgen](https://github.com/MasWag/calcgen)
 中1位の計算問題を自動で生成する.たしか出力はLaTeX.
