@@ -38,6 +38,7 @@ TeXが生成したpdf以外で動くかはしらない
 
 ### [cancel.sh](https://github.com/MasWag/cancel.sh)
 東大前期教養の休講情報のページと検索文字列を比較して,matchしたらgoogle calendarに追加するscript.pit使ってuser情報を隔離している.
+ISブランチは理学部情報科学科の休講情報のページに対応した版
 
 ### [calcgen](https://github.com/MasWag/calcgen)
 中1位の計算問題を自動で生成する.たしか出力はLaTeX.
@@ -54,4 +55,5 @@ TeXが生成したpdf以外で動くかはしらない
 tcl/tkで乱数を生成させてみただけ
 
 ### [jpegModifier](https://github.com/MasWag/jpegModifier)
-SOIとかEOIとかが破損したけどデータは残ってそうなjpegファイルを復活させる.ぶっちゃけ普通使う機会がない
+SOIとかEOIとかが破損したけどデータは残ってそうなjpegファイルを復活させる.ぶっちゃけ普q
+通使う機会がない
