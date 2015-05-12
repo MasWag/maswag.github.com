@@ -12,8 +12,8 @@ Contacts
 Twitter
 : [@MasWag](https://twitter.com/MasWag)
 
-github
+GitHub
 : [MasWag](https://github.com/MasWag)
 
-email
+Email
 : [masakiwaga+github@gmail.com](mailto:masakiwaga+github@gmail.com)
