@@ -1,6 +1,7 @@
 ---
 layout: page
 title: つくったものりすと
+lang: ja
 #tagline: Supporting tagline
 ---
 {% include JB/setup %}
