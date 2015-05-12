@@ -1,6 +1,6 @@
 ---
 layout: page
-title: test
+title: 
 lang: en
 #tagline: Supporting tagline
 ---
