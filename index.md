@@ -9,7 +9,7 @@ lang: en
 Popular Products
 ----------------
 
-* [OpenNI2-Freenect2 Driver](/en/2015/05/13/OpenNI2-Freenect2-Driver/)
+* [OpenNI2-Freenect2 Driver](/en/OpenNI2-Freenect2-Driver.html)
 
 Contacts
 --------
