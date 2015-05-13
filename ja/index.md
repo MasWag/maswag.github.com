@@ -25,7 +25,7 @@ VHDL周り
 --------
 
 ### [flycheck-vhdl-ghdl.el](https://gist.github.com/MasWag/4b74f9ac8f1014a73246)
-ghdlを用いてVHDLの構文解析をするflycheckのルール。
+ghdlを用いてVHDLの構文解析をするflycheckのルール。 [Blogの記事](http://tech-hack-maswag.blogspot.jp/2015/05/flycheckvhdl.html)
 
 ほどほど便利な子
 ----------------------------------------
