@@ -1,5 +1,4 @@
 ---
-layout: page
 category: en
 title: OpenNI2-Freenect2 Driver
 lang: en

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Masaki Waga
 lang: en
 #tagline: Supporting tagline
