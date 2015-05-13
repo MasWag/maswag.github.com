@@ -1,10 +1,8 @@
 ---
 title: つくったものりすと
 lang: ja
-#tagline: Supporting tagline
 ---
 {% include JB/setup %}
-Jekyllをまじめに運用してないからアレ
 
 適当に作ったスクリプトとかをのせていくページ
 
