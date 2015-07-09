@@ -12,7 +12,7 @@ FAQ
 
 * My application does not work with Kinect v2. Why?
     * First, does libfreenect2's sample work well? Freenect2 uses OpenGL or OpenCL or CPU (by default OpenGL).You may have to configure your GPU or Freenect2's build option. 
-    * Second, please check libraries are loaded.Two dynamic libraries are required, "libLibfreenect2.so" and "libfreenect2.so". "libLibfreenect2.so" is my driver. "libfreenect2.so" is libfreenect2. ![gdb](http://visualgdb.com/gdbreference/commands/sharedlibrary) is useful to debug.
+    * Second, please check libraries are loaded.Two dynamic libraries are required, "libLibfreenect2.so" and "libfreenect2.so". "libLibfreenect2.so" is my driver. "libfreenect2.so" is libfreenect2. [gdb](http://visualgdb.com/gdbreference/commands/sharedlibrary) is useful to debug.
     * If Freenect2 work fine and libraries are loaded,it may be my driver's problem. I have implemented some features, but not others. (ROI, Color recording, and so on) If you use these features, you can implement it! (actually, I do not have Kinect v2 now , so I might tell you where to change but I cannot test it...)
 * Is this supprts human tracking, e.g. Nite?
     * I have tested it ,but does not work.Nite is not free so I could not debug well.Please tell me what is wrong.
