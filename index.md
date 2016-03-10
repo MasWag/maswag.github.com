@@ -5,6 +5,11 @@ lang: en
 ---
 {% include JB/setup %}
 
+Non-Academic Interests
+----------------------
+
+I am interested in shell scripts. Especially AWK is my favorite language. I am also interested in  programmable logic devices such as FPGA.
+
 Popular Products
 ----------------
 
