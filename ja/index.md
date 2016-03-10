@@ -31,7 +31,7 @@ ghdlを用いてVHDLの構文解析をするflycheckのルール。 [Blogの記�
 ----------------------------------------
 
 ### [send_sms.rb](https://gist.github.com/MasWag/4664969)
-AndroidのSL4AでRubyを使って定型smsを送るスクリプト.
+AndroidのSL4AでRubyを使って定型smsを送るスクリプト。 最近はこういう処理はIFTTTとかみたいなサービスに投げる方がいいと思って使っていない。
 
 ### [mkembedpdf](https://gist.github.com/MasWag/5063181)
 フォントが埋め込まれてなくて残念なpdfからフォントが埋め込まれたpdfを生成するscript.
@@ -41,12 +41,14 @@ TeXが生成したpdf以外で動くかはしらない
 中1位の計算問題を自動で生成する.たしか出力はLaTeX.
 
 ### [Voting-Classes](https://github.com/MasWag/Voting-Classes)
-履修状況とかを集めたいときのフォーム.SQLとか使ってない(eccsで使えなかったから)から適切なphpが動けば多分すぐ動く.サーバー内部にcsvで保存している. .htaccessとかちゃんとしないとまずい
+履修状況とかを集めたいときのフォーム.SQLとか使ってない(ECCSで使えなかったから)から適切なphpが動けば多分すぐ動く.サーバー内部にcsvで保存している. .htaccessとかちゃんとしないとまずい
 
 なんかバグがあった気がするけどもう覚えてない
 
 自動login系
 ----------------------------------------
+
+どっちも長らく使っていないので使えない可能性も高い。
 
 ### [login_utroam.rb](https://gist.github.com/MasWag/7699888)
 utroamのログインを自動で行うtool.ぶっちゃけutroam-1xを使えば良い。
