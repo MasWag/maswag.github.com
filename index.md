@@ -1,5 +1,5 @@
 ---
-title: Masaki Waga
+title: Masaki Waga (和賀 正樹)
 lang: en
 #tagline: Supporting tagline
 ---
