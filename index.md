@@ -10,16 +10,16 @@ Non-Academic Interests
 
 I am interested in shell scripts. Especially AWK is my favorite language. I am also interested in  programmable logic devices such as FPGA.
 
-Popular Products
+Popular Product
 ----------------
 
 * [OpenNI2-Freenect2 Driver](/en/OpenNI2-Freenect2-Driver.html)
 
-Project
--------
+Professional Experience
+-----------------------
 
 2016-Now
-: [Cloud LaTeX](http://cloudlatex.io)
+: Programmer in [Cloud LaTeX](http://cloudlatex.io)
 
 Contacts
 --------
