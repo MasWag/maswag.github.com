@@ -5,15 +5,17 @@ lang: ja
 ---
 {% include JB/setup %}
 
+研究ではおおまかにはハイブリッドシステムや実時間システムの形式手法を適用する話を扱っています。応用では特に自律走行自動車やロボットに興味があります。
+
 シェルワンライナーが好きです。特にAWKが好きです。
 
 * [つくったものリスト](/ja/products.html)
 
-プロジェクト
-------------
+仕事
+----
 
 2016-現在
-: [Cloud LaTeX](http://cloudlatex.io)
+: [Cloud LaTeX](http://cloudlatex.io) にて フロントエンド (ReactJS) からバックエンド (Ruby on Rails) までやるプログラマとサーバエンジニア(AWS)
 
 連絡先
 --------
@@ -25,4 +27,4 @@ GitHub
 : [MasWag](https://github.com/MasWag)
 
 Email
-: [masakiwaga+github@gmail.com](mailto:masakiwaga+github@gmail.com)
+: [masakiwaga@gmail.com](mailto:masakiwaga@gmail.com)
