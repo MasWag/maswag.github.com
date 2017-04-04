@@ -8,7 +8,7 @@ lang: en
 Interests
 ---------
 
-My research interest is formal methods for hybrid or real-time systems. As applications, I am especially interested in autonomous cars and robots. That is related to the experience as a member of [the team for robot contest (RoboTech)](http://tuk.t.u-tokyo.ac.jp/robotech/) in the University of Tokyo. For more information, please visit [the research page](http://www-mmm.is.s.u-tokyo.ac.jp/~mwaga/).
+My research interest is formal methods for hybrid or real-time systems. As applications, I am especially interested in autonomous cars and robots. That is related to the experience as a member of [the team for robot contest (RoboTech)](http://tuk.t.u-tokyo.ac.jp/robotech/) in the University of Tokyo. For more information, please visit [the research page](http://group-mmm.org/~mwaga/).
 
 As my hobby, I love shell scripts. Especially AWK is my favorite language. I am also interested in  programmable logic devices such as FPGA.
 
