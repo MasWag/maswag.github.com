@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<title>しおりメーカー</title>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#to_generated_page').click(function() {
+    isRight = ("右開き" == $('#inputform [name=openway]:checked').val());
+    remainOffset = Number($('#inputform [name=offset]').val()) || 0;
+    numOfPage = remainOffset + (Number($('#inputform [name=numofpage]').val()) || 0);
+    numOfPapers = Math.ceil(numOfPage / 4);
+    lastPage = numOfPapers * 4 - remainOffset;
+    firstPage = 1 - remainOffset;
+    if (isRight) {
+      leftNum = firstPage;
+      rightNum = lastPage;
+    } else {
+      leftNum = lastPage;
+      rightNum = firstPage;
+    }
+    document.getElementById("leftNum").textContent = leftNum;
+    document.getElementById("rightNum").textContent = rightNum;
+    document.getElementById("currentPage").textContent = 1;
+    document.getElementById("numOfPapers").textContent = numOfPapers;
+    document.getElementById("currentSide").textContent = "表";
+    });
+    $('#to_next_page').click(function() {
+    isRight = !isRight;
+    firstPage++;
+    lastPage--;
+    if (firstPage > lastPage)
+      return;
+    if (isRight) {
+      leftNum = firstPage;
+      rightNum = lastPage;
+    } else {
+      leftNum = lastPage;
+      rightNum = firstPage;
+    }
+    document.getElementById("leftNum").textContent = leftNum;
+    document.getElementById("rightNum").textContent = rightNum;
+    if ("表" == document.getElementById("currentSide").textContent) {
+       document.getElementById("currentSide").textContent = "裏";
+    } else {
+       document.getElementById("currentSide").textContent = "表";
+       document.getElementById("currentPage").textContent++;
+    }
+    });
+});
+</script>
+<style>
+.main div   {  
+    position: absolute;
+    left: 50%;
+}
+.numbers {
+    font-size: xx-large;
+}
+#openway {
+    width: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<div data-role="page" id="inputpage">
+<div data-role="header">
+<h1>しおりメーカー</h1>
+</div>
+<div data-role="main" class="ui-content">
+<form method="post" id="inputform">
+<div class="ui-field-contain">
+<label for="numofpage">ページ数:</label>
+<input type="number" name="numofpage" id="numofpage" value="0" min="0">
+
+<label for="offset">オフセット:</label>
+<input type="number" name="offset" id="offset" value="0" min="0">
+
+<fieldset data-role="controlgroup" id="openway">
+<legend>開き方:</legend>
+<label for="rightopen">右開き</label>
+<input type="radio" name="openway" id="rightopen" value="右開き">
+<label for="leftopen">左開き</label>
+<input type="radio" name="openway" id="leftopen" value="左開き" checked>
+</fieldset>
+</div>
+</form>
+</div>
+<a href="#generatedpage" class="ui-btn" id="to_generated_page">作成</a>
+<div data-role="footer">
+<h1></h1>
+</div>
+</div>
+
+<div data-role="page" id="generatedpage">
+<div data-role="header">
+<a href="#inputpage" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+<h1>しおりメーカー</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div class="ui-grid-a">
+<div class="ui-block-a numbers">
+<span id="currentPage">XXX</span>/<span id="numOfPapers">XXX</span>枚目<span id="currentSide">YYY</span>
+</div>
+</div>
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<span class="ui-btn numbers" id="leftNum">XXX</span>
+</div>
+<div class="ui-block-b">
+<span class="ui-btn numbers" id="rightNum">YYY</span>
+</div>
+</div>
+</div>
+<a href="#generatedpage" class="ui-btn" id="to_next_page">次のページ</a>
+<div data-role="footer">
+<h1></h1>
+</div>
+</div>
+
+</body>
+</html>
