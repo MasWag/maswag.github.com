@@ -10,7 +10,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('#to_generated_page').click(function() {
-    isRight = ("右開き" == $('#inputform [name=openway]:checked').val());
+    isRight = ("右綴じ" == $('#inputform [name=openway]:checked').val());
     remainOffset = Number($('#inputform [name=offset]').val()) || 0;
     numOfPage = remainOffset + (Number($('#inputform [name=numofpage]').val()) || 0);
     numOfPapers = Math.ceil(numOfPage / 4);
@@ -84,10 +84,10 @@ $(document).ready(function() {
 
 <fieldset data-role="controlgroup" id="openway">
 <legend>開き方:</legend>
-<label for="rightopen">右開き</label>
-<input type="radio" name="openway" id="rightopen" value="右開き">
-<label for="leftopen">左開き</label>
-<input type="radio" name="openway" id="leftopen" value="左開き" checked>
+<label for="rightopen">右綴じ</label>
+<input type="radio" name="openway" id="rightopen" value="右綴じ">
+<label for="leftopen">左綴じ</label>
+<input type="radio" name="openway" id="leftopen" value="左綴じ" checked>
 </fieldset>
 </div>
 </form>
@@ -110,6 +110,7 @@ $(document).ready(function() {
 </div>
 </div>
 <div class="ui-grid-a">
+この状態をひっくり返して置く。ここに右にあるものが印刷機だと左。
 <div class="ui-block-a">
 <span class="ui-btn numbers" id="leftNum">XXX</span>
 </div>
