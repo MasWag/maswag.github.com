@@ -14,7 +14,7 @@ lang: ja
 仕事
 ----
 
-2016-現在
+2016-2018
 : [Cloud LaTeX](http://cloudlatex.io) にて フロントエンド (ReactJS) からバックエンド (Ruby on Rails) までやるプログラマとサーバエンジニア(AWS)
 
 連絡先

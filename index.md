@@ -8,9 +8,9 @@ lang: en
 Interests
 ---------
 
-My research interest is formal methods for hybrid or real-time systems. As applications, I am especially interested in autonomous cars and robots. That is related to the experience as a member of [the team for robot contest (RoboTech)](http://tuk.t.u-tokyo.ac.jp/robotech/) in the University of Tokyo. For more information, please visit [the research page](http://group-mmm.org/~mwaga/).
+My research interest is lightweight verification for hybrid or real-time systems. As applications, I am especially interested in autonomous cars and robots. That is related to the experience as a member of [the team for robot contest (RoboTech)](http://tuk.t.u-tokyo.ac.jp/robotech/) in the University of Tokyo. For more information, please visit [the research page](http://group-mmm.org/~mwaga/).
 
-As my hobby, I love shell scripts. Especially AWK is my favorite language. I am also interested in  programmable logic devices such as FPGA.
+As my hobby, I love shell scripts. Especially AWK is my favorite language. 
 
 Popular Product
 ----------------
@@ -20,7 +20,7 @@ Popular Product
 Professional Experience
 -----------------------
 
-2016-Now
+2016 Apr. - 2018 Mar.
 : Front end (ReactJS) and Back end (Ruby on Rails) Programmer and Server engineer (CentOS on AWS) in [Cloud LaTeX](http://cloudlatex.io)
 
 Experience in RoboTech
