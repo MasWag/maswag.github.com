@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: maswag.github.io
+Token: e60235edc3b6c1402a9d0688f6be944e17889c0dd521c5ad5509d07aba45baec
